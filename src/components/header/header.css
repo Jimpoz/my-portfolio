@@ -1,0 +1,44 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header_socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+    size: 1.5rem;
+}
+
+.header_socials::after {
+    content:"";
+    width: 1px;
+    height: 1rem;
+    background: var(--color-primary);
+}
+
+.header_socials::before{
+    content:"";
+    width: 1px;
+    height: 1rem;
+    background: var(--color-primary);
+}
