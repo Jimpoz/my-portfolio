@@ -54,9 +54,11 @@ h1, h2, h3, h4, h5 { font-weight: 500;}
 
 h1 { font-size: 2.5rem; }
 
+h6 { font-size: 1.75rem; }
 
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5{
@@ -102,6 +104,18 @@ a:hover{
     background: var(--color-primary);
     color: var(--color-white);
 }
+
+
+/*the picture button class below is not used nor declared*/
+
+.btn-picture{
+    width: 15rem;
+    height: 15rem;
+    cursor: pointer;
+    background:transparent;
+    border: none;
+}
+
 
 img {
     display: block;
