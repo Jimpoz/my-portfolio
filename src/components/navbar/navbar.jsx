@@ -6,18 +6,19 @@ import {BsClockHistory} from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import { useState } from 'react'
 
-function Navbar() {
-
-  const [active, setActive] = useState('#')
+function Navbar(props) {
+  const { active, setActive } = props;
 
   return (
     <nav>
-        <a href="#" onClick={() => setActive('#')} className={active === '#' ? 'active' : ''} > <AiOutlineHome size={25} onFocus= {() => setActive('#')} /> </a>
-        <a href="#about" onClick={() => setActive('#about')} className={active === '#about' ? 'active' : ''}> <AiOutlineUser size={25} onFocus={() => setActive('#about')} /> </a>
-        <a href="#experience" onClick={() => setActive('#experience')} className={active === '#experience' ? 'active' : ''}> <BsClockHistory size={25} onFocus={() => setActive('#experience')} /> </a>
-        <a href="#contact" onClick={() => setActive('#contact')} className={active === '#contact' ? 'active' : ''}> <MdEmail size={25} onFocus={() => setActive('#contact')} /> </a>
+      <a href="#" onClick={() => setActive('header')} className={active === 'header' ? 'active' : ''}>
+        <AiOutlineHome size={25} />
+      </a>
+      <a href="#about" onClick={() => setActive('about')} className={active === 'about' ? 'active' : ''}>
+        <AiOutlineUser size={25} />
+      </a>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

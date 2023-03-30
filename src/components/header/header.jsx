@@ -16,8 +16,6 @@ function Header() {
             <h5 className='text-light'>Computer Science student at the university of Venice Ca' Foscari</h5>
             <CTA/>
             <HeaderSocials/>
-
-            <a href="#contact" className='scroll_down'>Scroll down</a>
         </div>
     </section>
   )
