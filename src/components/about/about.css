@@ -12,4 +12,6 @@ about{
     padding: 2rem;
     border-radius: 20px;
     backdrop-filter: blur(2px);
+    justify-content: center;
+    max-width: 600px;
 }
