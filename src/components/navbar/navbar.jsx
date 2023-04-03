@@ -17,6 +17,9 @@ function Navbar(props) {
       <a href="#about" onClick={() => setActive('about')} className={active === 'about' ? 'active' : ''}>
         <AiOutlineUser size={25} />
       </a>
+      <a href="#contact" onClick={() => setActive('contact')} className={active === 'contact' ? 'active' : ''}>
+        <MdEmail size={25} />
+      </a>
     </nav>
   );
 }

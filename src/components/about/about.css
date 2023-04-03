@@ -1,14 +1,15 @@
-.about_container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 1rem;
-    text-align: center;
+about{
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
 }
 
 .about_text_container {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 1rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
 }
