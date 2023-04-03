@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jimpoz.github.io/",
-  "name": "myportfolio",
+  "homepage": "https://jimpoz.github.io/my-portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
