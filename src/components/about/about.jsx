@@ -3,17 +3,17 @@ import './about.css';
 
 function About() {
   // Define your GitHub profile link
-  const githubProfileLink = 'https://github.com/yourusername';
+  const githubProfileLink = 'https://github.com/Jimpoz';
 
   // Define your personal projects with titles, descriptions, and images
   const personalProjects = [
     {
-      title: 'Project 1',
+      title: 'Sentiment analysis of Twitter users towards the Climate crisis based on actions of environmental movements',
       description: 'A description of your first project.',
       imageSrc: '/images/project1.jpg', // Replace with the actual image source
     },
     {
-      title: 'Project 2',
+      title: 'Exam Manager WebApp',
       description: 'A description of your second project.',
       imageSrc: '/images/project2.jpg', // Replace with the actual image source
     },
