@@ -9,7 +9,7 @@ function About() {
   const personalProjects = [
     {
       title: 'Sentiment analysis of Twitter users towards the Climate crisis based on actions of environmental movements',
-      description: 'A description of your first project.',
+      description: 'The objective of this project was to reasearch and analye the behaviour that Users had during the manifestation of environmental movements that were trying to spread their beliefs through actions. Though they were not well received since their actions were either damaging pieces of art or being a hindrance to others. ',
       imageSrc: '/images/project1.jpg', // Replace with the actual image source
     },
     {
