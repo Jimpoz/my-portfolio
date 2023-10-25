@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/JinpengZhangResume.pdf'
+import CV from '../../assets/JZResume.pdf'
 import { useState } from 'react'
 
 function CTA(props) {
